@@ -48,7 +48,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/OWNER/common</url>
+            <url>https://maven.pkg.github.com/trung03trung/airlines-comon</url>
         </repository>
     </distributionManagement>
 
