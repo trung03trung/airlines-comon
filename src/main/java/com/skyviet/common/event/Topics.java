@@ -3,11 +3,11 @@ package com.skyviet.common.event;
 public final class Topics {
     private Topics() {}
 
-    public static final String BOOKING_CREATED = "booking.created";
-    public static final String BOOKING_CONFIRMED = "booking.confirmed";
-    public static final String BOOKING_CANCELLED = "booking.cancelled";
-    public static final String SEATS_HELD = "seats.held";
-    public static final String SEATS_HOLD_FAILED = "seats.hold_failed";
-    public static final String PAYMENT_SUCCESS = "payment.success";
-    public static final String PAYMENT_FAILED = "payment.failed";
+    public static final String NOTIFICATION_BOOKING_CONFIRMED = "notification.booking_confirmed";
+    public static final String NOTIFICATION_BOOKING_CANCELLED = "notification.booking_cancelled";
+    public static final String NOTIFICATION_PAYMENT_SUCCESS = "notification.payment_success";
+    public static final String NOTIFICATION_PAYMENT_FAILED = "notification.payment_failed";
+    public static final String NOTIFICATION_FLIGHT_DELAYED = "notification.flight_delayed";
+    public static final String NOTIFICATION_FLIGHT_CANCELLED = "notification.flight_cancelled";
+    public static final String NOTIFICATION_CHECKIN_REMINDER = "notification.checkin_reminder";
 }
